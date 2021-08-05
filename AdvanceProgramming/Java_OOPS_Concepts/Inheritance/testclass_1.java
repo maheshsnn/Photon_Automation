@@ -17,7 +17,7 @@ public class testclass_1 extends Inheritance_sample {
 			sss.mm(10);
 	       
 			
-		//	testclass_1 ss=	new Inheritance_sample();
+			//testclass_1 ss=	new Inheritance_sample();
 			
 		//	u.mm();
 		}

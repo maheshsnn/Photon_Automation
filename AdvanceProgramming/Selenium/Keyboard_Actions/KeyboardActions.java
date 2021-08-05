@@ -34,6 +34,7 @@ public class KeyboardActions {
 	{
 		d.manage().timeouts().implicitlyWait(2,TimeUnit.SECONDS);
 		d.get("https://www.google.co.in/?gws_rd=ssl");
+		
 		d.findElement(By.id("gbqfq")).sendKeys("selenium");
 		WebElement X=d.findElement(By.linkText("Selenium - Web Browser Automation"));
 		Actions a=new Actions(d);

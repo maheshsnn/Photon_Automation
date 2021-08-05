@@ -8,14 +8,14 @@ import java.util.Properties;
 public class Propertiesfile {
 
 	Properties prop;
-	
+
 	/*
-	 *  class to read properties file
+	 * class to read properties file
 	 */
 
 	public Propertiesfile() throws Exception {
 		try {
-			File config = new File("G:\\Photon_Automation\\Planit_Assesment_Mahesh\\Inputs\\Input");
+			File config = new File("D:\\Workplace\\Photon_Automation\\Planit_Assesment_Mahesh\\Inputs\\Input");
 			FileInputStream fis = new FileInputStream(config);
 			prop = new Properties();
 			prop.load(fis);
@@ -58,5 +58,10 @@ public class Propertiesfile {
 	public String Phone() {
 		String phn = prop.getProperty("Phone");
 		return phn;
+	}
+
+	public String ExtentPath() {
+		String extentpath = prop.getProperty("Extentreportspath");
+		return extentpath;
 	}
 }

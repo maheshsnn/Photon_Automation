@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 
+import Base.Actionclass;
 import Base.ManageBrowser;
 import Utility.CommonMethods;
 
@@ -30,7 +31,10 @@ public class Login {
 	
 	
 	public static void Loginto(WebDriver driver) throws Exception {
-		driver.findElement(Login_Button_Homepage).click();
+		
+		Actionclass.CLICK(Login_Button_Homepage, "clicking on logg button");
+		
+	//	driver.findElement(Login_Button_Homepage).click();
 		CommonMethods.pageload(driver);
 		if (driver.findElement(Welcome_Text).isDisplayed()) {
 			String WelcomeText = driver.findElement(Welcome_Text).getText();

@@ -15,7 +15,7 @@ public class Nonrepetative_character_InaString {
 			}
 			if (unique) {
 				System.out.println("The first non repeated character in String is: " + str1.charAt(i));
-				break;
+				//break;
 			}
 		}
 

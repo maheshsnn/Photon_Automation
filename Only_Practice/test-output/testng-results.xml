@@ -1,29 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54" started-at="2020-11-25T18:53:19Z" finished-at="2020-11-25T18:53:19Z">
+  <suite name="Suite" duration-ms="36" started-at="2021-01-07T19:19:49Z" finished-at="2021-01-07T19:19:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54" started-at="2020-11-25T18:53:19Z" finished-at="2020-11-25T18:53:19Z">
-      <class name="selenium.invocation_method">
-        <test-method status="PASS" signature="mm()[pri:0, instance:selenium.invocation_method@9629756]" name="mm" is-config="true" duration-ms="11" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+    <test name="Test" duration-ms="36" started-at="2021-01-07T19:19:49Z" finished-at="2021-01-07T19:19:49Z">
+      <class name="java_Practice.Order_of_TestngAnnotaions">
+        <test-method status="PASS" signature="bf()[pri:0, instance:java_Practice.Order_of_TestngAnnotaions@2a5ca609]" name="bf" is-config="true" duration-ms="11" started-at="2021-01-08T00:49:49Z" finished-at="2021-01-08T00:49:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mm -->
-        <test-method status="PASS" signature="sh()[pri:0, instance:selenium.invocation_method@9629756]" name="sh" duration-ms="5" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+        </test-method> <!-- bf -->
+        <test-method status="PASS" signature="bt()[pri:0, instance:java_Practice.Order_of_TestngAnnotaions@2a5ca609]" name="bt" is-config="true" duration-ms="1" started-at="2021-01-08T00:49:49Z" finished-at="2021-01-08T00:49:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sh -->
-        <test-method status="PASS" signature="sh()[pri:0, instance:selenium.invocation_method@9629756]" name="sh" duration-ms="2" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+        </test-method> <!-- bt -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:java_Practice.Order_of_TestngAnnotaions@2a5ca609]" name="bc" is-config="true" duration-ms="0" started-at="2021-01-08T00:49:49Z" finished-at="2021-01-08T00:49:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sh -->
-        <test-method status="PASS" signature="shs()[pri:0, instance:selenium.invocation_method@9629756]" name="shs" duration-ms="2" started-at="2020-11-26T00:23:19Z" finished-at="2020-11-26T00:23:19Z">
+        </test-method> <!-- bc -->
+        <test-method status="FAIL" signature="mms()[pri:0, instance:java_Practice.Order_of_TestngAnnotaions@2a5ca609]" name="mms" duration-ms="16" started-at="2021-01-08T00:49:49Z" finished-at="2021-01-08T00:49:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at java_Practice.Order_of_TestngAnnotaions.mms(Order_of_TestngAnnotaions.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shs -->
-      </class> <!-- selenium.invocation_method -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- mms -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:java_Practice.Order_of_TestngAnnotaions@2a5ca609]" name="bm" is-config="true" duration-ms="0" started-at="2021-01-08T00:49:49Z" finished-at="2021-01-08T00:49:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+      </class> <!-- java_Practice.Order_of_TestngAnnotaions -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

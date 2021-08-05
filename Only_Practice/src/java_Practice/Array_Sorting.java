@@ -7,7 +7,7 @@ public class Array_Sorting {
 		String[] s = { "mahesh", "ABCC", "Century", "ABCC" };
 		int y = s.length;
 		for (int i = 0; i < y; i++) {
-			for (int j = i + 1; j < y; j++) {
+			for (int j = i + 1; j < y; j++) {	
 
 				if (s[i].compareTo(s[j]) == 0) {
 					s[j] = s[y - 1];

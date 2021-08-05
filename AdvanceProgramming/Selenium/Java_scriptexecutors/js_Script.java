@@ -28,6 +28,8 @@ public class js_Script {
 	jse.executeScript("document.getelementByID('').click()");
 	jse.executeScript("document.getelementBYId('').scrollintoview");
 	
+
+	
 	
 
 }}

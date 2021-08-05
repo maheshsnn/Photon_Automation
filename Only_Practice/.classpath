@@ -33,5 +33,6 @@
 	<classpathentry kind="lib" path="D:/Workplace/Photon_Automation/lib/velocity-1.7-dep.jar"/>
 	<classpathentry kind="lib" path="D:/Workplace/Photon_Automation/lib/xmlbeans.jar"/>
 	<classpathentry kind="lib" path="D:/Workplace/Photon_Automation/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="D:/Workplace/lib/testng-6.7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

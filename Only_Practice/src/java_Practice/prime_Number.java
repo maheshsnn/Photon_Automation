@@ -15,9 +15,7 @@ public class prime_Number {
 		for (int i = 2; i < s; i++) {
 			if (s % i == 0) {
 				return false;
-			} else {
-				System.out.println(i);
-			}
+			} 
 
 		}
 		return true;

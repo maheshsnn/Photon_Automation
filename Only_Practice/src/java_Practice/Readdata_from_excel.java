@@ -14,14 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Readdata_from_excel {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 
 		System.out.println(Readdata_from_excel.mp().get("mahesh"));
-
-		/*
-		 * mahesh srinivas bethi saroja papaiah
-		 */
-
 	}
 
 	public static HashMap<String, String> mp() throws Exception {
@@ -29,17 +23,21 @@ public class Readdata_from_excel {
 		HashMap<String, String> hmap = new HashMap<String, String>();
 
 		FileInputStream fis = new FileInputStream("D:\\Workplace\\writeexcel.xlsx");
+
 		XSSFWorkbook wb = new XSSFWorkbook(fis);
+
 		XSSFSheet s = wb.getSheetAt(0);
 
 		Iterator<Row> itr = s.iterator();
 
 		while (itr.hasNext()) {
+
 			Row row = itr.next();
 
 			Iterator<Cell> cellit = row.iterator();
 
 			while (cellit.hasNext()) {
+
 				Cell cells = cellit.next();
 
 				cells.setCellType(CellType.STRING);

@@ -28,7 +28,6 @@ public class API_Practice {
 		Document doc = API_Practice.LoadFromXML(sxml);
 
 		Element el = doc.getDocumentElement();
-
 		System.out.println(API_Practice.gettext(el, "ICAO"));
 
 	}

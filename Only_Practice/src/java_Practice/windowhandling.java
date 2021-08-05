@@ -15,25 +15,21 @@ public class windowhandling {
 		String Parent = driver.getWindowHandle();
 
 		Set<String> allwind = driver.getWindowHandles();
-	//using for loop	
-		for(String child: allwind)
-		{
-			if(!Parent.equals(child))
-			{
-				
+		// using for loop
+		for (String child : allwind) {
+			if (!Parent.equals(child)) {
+
 			}
 		}
-		
-		//using iterator
-		
-		Iterator<String>itr=allwind.iterator();
-		
-		while(itr.hasNext())
-		{
-			String child=itr.next();
-			if(!Parent.equals(child))
-			{
-				
+
+		// using iterator
+
+		Iterator<String> itr = allwind.iterator();
+
+		while (itr.hasNext()) {
+			String child = itr.next();
+			if (!Parent.equals(child)) {
+
 			}
 		}
 

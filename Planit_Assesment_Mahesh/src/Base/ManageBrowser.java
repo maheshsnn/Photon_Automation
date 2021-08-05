@@ -5,14 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-
-import Utility.Propertiesfile;
 
 public class ManageBrowser {
-
-	static Propertiesfile pro;
 
 	/*
 	 * class to create webdriver profile we have used singleton design pattern
@@ -27,10 +21,12 @@ public class ManageBrowser {
 
 	public ManageBrowser(String browser) throws Exception {
 
-		pro = new Propertiesfile();
+		//pro = new Propertiesfile();
 		if (browser.equalsIgnoreCase("chrome")) {
-
-			System.setProperty("webdriver.chrome.driver",
+			
+			String s=System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver.exe";
+			
+				System.setProperty("webdriver.chrome.driver",
 					System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equals("firefox")) {
@@ -55,5 +51,5 @@ public class ManageBrowser {
 	public WebDriver getdriver() {
 		return driver;
 	}
-
+		
 }

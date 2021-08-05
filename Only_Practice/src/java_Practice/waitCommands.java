@@ -1,6 +1,7 @@
 package java_Practice;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.bcel.generic.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -16,8 +17,10 @@ public class waitCommands {
 		
 		WebDriver driver=null;
 		
-		
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(500, TimeUnit.MICROSECONDS);
+		
+		
 		
 		WebDriverWait wait=new WebDriverWait(driver	,5000);
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath(""))));

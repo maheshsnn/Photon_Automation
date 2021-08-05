@@ -2,6 +2,7 @@ package Auto_IT;
 
 import static org.testng.Assert.assertEquals;
 
+import java.awt.Desktop.Action;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
@@ -19,6 +20,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -44,6 +46,8 @@ public class Auto_It {
 		 
 		System.setProperty("webdriver.chrome.driver", "G:\\lib\\chromedriver.exe");
 		d = new ChromeDriver(options);
+	
+		
 
 		// WebDriverWait wait=new WebDriverWait(d,100);
 		// WebElement

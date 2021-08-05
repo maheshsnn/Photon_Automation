@@ -9,6 +9,7 @@ public class Anlyzer implements IRetryAnalyzer{
 	public boolean retry(ITestResult result) {
 		
 		int count=0;
+		
 		int retry_limit=3;
 		
 		if(count<retry_limit)

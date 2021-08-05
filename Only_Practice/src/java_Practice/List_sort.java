@@ -20,19 +20,21 @@ public class List_sort {
 			for (int j = i + 1; j < y; j++) {
 				
 			
-				if (ar.get(i).compareTo(ar.get(j)) > 0) {
+				/*if (ar.get(i).compareTo(ar.get(j)) > 0) {
 					String temp = ar.get(i);
 					ar.set(i, ar.get(j));
 					ar.set(j, temp);
-				}
+				}*/
 				
 			// duplicates
 				
-			/*	
+				
 				if(ar.get(i).compareTo(ar.get(j))==0)
 				{
 					ar.remove(ar.get(j));
-				}*/
+					y--;
+					j--;
+				}
 				
 
 			}
