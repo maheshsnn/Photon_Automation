@@ -16,7 +16,7 @@ public class interface_class {
 	}
 	interface y{
 		
-		
+	//	public int m1();
 	}
 
 }

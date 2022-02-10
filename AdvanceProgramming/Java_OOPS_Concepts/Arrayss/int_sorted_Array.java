@@ -39,7 +39,7 @@ public class int_sorted_Array {
 				
 			}
 			
-			System.out.println(nums[i]);
+			System.out.print(nums[i]+" ");
 		}
 				
 		

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;Mobile_Automation&apos; to &apos;mobile_Automation&apos;&#x0D;&#x0A;- Original project: &apos;SeeTest_Automation&apos;&#x0D;&#x0A;- Original element: &apos;SeeTest_Automation/src/Mobile_Automation&apos;&#x0D;&#x0A;- Renamed element: &apos;SeeTest_Automation/src/mobile_Automation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Mobile_Automation&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Mobile_Automation" name="mobile_Automation" qualified="false" references="true" stamp="1534259117225" textual="false" version="1.0"/>
-</session>

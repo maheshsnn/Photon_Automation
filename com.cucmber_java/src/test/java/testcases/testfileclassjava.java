@@ -16,7 +16,7 @@ public class testfileclassjava {
 @Before
 public void mm()
 {
-	System.setProperty("webdriver.chrome.driver", "G:\\Photon_Automation\\lib\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "D:\\Workplace\\lib\\chromedriver.exe");
 	
 	 driver= new ChromeDriver();
 	 

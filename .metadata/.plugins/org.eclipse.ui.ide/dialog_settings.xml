@@ -5,18 +5,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="D:\Workplace\Photon_Automation\Only_Practice"/>
-			<item value="G:\Photon_Automation\Appium"/>
-			<item value="G:\AUTOMATION WORKSPACE\Appium"/>
-			<item value="G:\Photon_Automation\valuelabs-qa-automation"/>
-			<item value="G:\Photon_Automation\Protractor_framework"/>
-			<item value="G:\Photon_Automation\com.cucmber_java"/>
-			<item value="G:\Photon_Automation\AdvanceProgramming"/>
-			<item value="G:\valuelabs-qa-automation"/>
-			<item value="G:\AUTOMATION WORKSPACE\com.cumber"/>
-			<item value="G:\AUTOMATION WORKSPACE\Protractor_framework"/>
-			<item value="G:\AUTOMATION WORKSPACE\com.cucmber_java"/>
-			<item value="G:\AUTOMATION WORKSPACE\AdvanceProgramming"/>
+			<item value="D:\Workplace\Photon_Automation"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
@@ -26,15 +15,8 @@
 		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
-	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.jdt.ui.java"/>
-		</list>
-	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="338" key="DIALOG_X_ORIGIN"/>
-		<item value="313" key="DIALOG_Y_ORIGIN"/>
+		<item value="534" key="DIALOG_X_ORIGIN"/>
+		<item value="209" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
