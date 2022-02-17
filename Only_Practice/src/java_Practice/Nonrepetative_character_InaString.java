@@ -10,7 +10,7 @@ public class Nonrepetative_character_InaString {
 
 				if (i != j && str1.charAt(i) == str1.charAt(j)) {
 					unique = false;
-					break;
+					//break;
 				}
 			}
 			if (unique) {

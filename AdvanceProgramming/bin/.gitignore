@@ -1,6 +1,4 @@
 /.classpath
-/.project
-/.settings/
 /API_With_Selenium/
 /Abstractclass/
 /Ajax_Demo/
@@ -48,11 +46,8 @@
 /WebTable/
 /Wrapper_class/
 /comparators/
-/debug.log
 /enumss/
 /first/
 /interfaces/
 /propertiesfile_loadind/
-/test-output/
-/testng.xml
 /xls_Writetocell/

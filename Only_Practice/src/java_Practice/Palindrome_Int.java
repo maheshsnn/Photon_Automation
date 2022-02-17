@@ -1,6 +1,6 @@
 package java_Practice;
 
-public class Palindrome {
+public class Palindrome_Int {
 	public static void main(String[] args) {
 
 	int n=121;
