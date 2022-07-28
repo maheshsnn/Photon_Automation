@@ -10,7 +10,7 @@ public class Properties_file {
 	
 	Properties prop;
 	
-	public void loadfile() throws IOException
+	public Properties_file() throws IOException
 	{
 		File f=new File("");
 		FileInputStream fis=new FileInputStream(f);
@@ -26,6 +26,14 @@ public class Properties_file {
 		String uname=prop.getProperty("username");
 		return uname;
 	}
+	
+	public String password()
+	{
+		
+		String uname=prop.getProperty("password");
+		return uname;
+	}
+	
 	
 	
 

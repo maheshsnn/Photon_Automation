@@ -17,14 +17,13 @@ public class Largestnumber_Array {
 			{
 			largest=s[i];
 			}
-			else if(s[i]>secondl)
-			{
-				secondl=s[i];
-			}
+			/*
+			 * else if(s[i]>secondl) { secondl=s[i]; }
+			 */
 		}
 		
 		System.out.println(largest);
-		System.out.println(secondl);
+		//System.out.println(secondl);
 		
 
 	}

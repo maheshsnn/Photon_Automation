@@ -10,12 +10,12 @@ public class Nonrepetative_character_InaString {
 
 				if (i != j && str1.charAt(i) == str1.charAt(j)) {
 					unique = false;
-					//break;
+					// break;
 				}
 			}
 			if (unique) {
 				System.out.println("The first non repeated character in String is: " + str1.charAt(i));
-				//break;
+				// break;
 			}
 		}
 

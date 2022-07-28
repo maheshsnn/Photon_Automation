@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class AjaxDemo {
@@ -33,6 +34,9 @@ public class AjaxDemo {
 		Select branch=new Select(d.findElement(By.id("selBranch")));
 		branch.selectByVisibleText("Sanjeeva Reddy Nagar");
 		Thread.sleep(5000);
+		
+		Actions a=new Actions(d);
+		a.doubleClick(d.findElement(By.xpath(""))).build().perform();
 		
 	}
 	@Before

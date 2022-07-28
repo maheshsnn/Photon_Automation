@@ -13,6 +13,7 @@ public class hashmap_Stringcount {
 
 		s.add("mahesh");
 		s.add("mahesh");
+		
 		s.add("triv");
 		s.add("Moksha");
 		s.add("Sravs");

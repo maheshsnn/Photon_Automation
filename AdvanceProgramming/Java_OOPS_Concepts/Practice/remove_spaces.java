@@ -1,4 +1,4 @@
-package Practice;
+ package Practice;
 
 public class remove_spaces {
 

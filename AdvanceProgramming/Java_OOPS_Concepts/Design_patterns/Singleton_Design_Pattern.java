@@ -10,10 +10,9 @@ public class Singleton_Design_Pattern {
 	public static void main(String[] args) {
 
 		driverobjclass object2 = driverobjclass.getinstance();
-	
-		WebDriver driver=object2.getDriver();
-		
-		
+
+		WebDriver driver = object2.getDriver();
+
 	}
 
 }
@@ -26,7 +25,7 @@ class driverobjclass {
 
 	// Create a private constructor
 	private driverobjclass() {
-		
+
 		System.out.println("this is a constructor");
 
 		System.setProperty("webdriver.chrome.driver", "G:\\Photon_Automation\\lib\\chromedriver.exe");
@@ -38,17 +37,16 @@ class driverobjclass {
 	public static driverobjclass getinstance() {
 
 		// WebDriver driver=new ChromeDriver();
-		
-		if( obj==null)
-		{
-			obj=new driverobjclass();
+
+		if (obj == null) {
+			obj = new driverobjclass();
 		}
 
 		return obj;
 	}
 
 	public WebDriver getDriver() {
-		
+
 		return driver;
 	}
 

@@ -8,6 +8,8 @@ public class GetFilename_frompath {
 		String s = "D:\\Workplace\\AUTOIT.exe";
 
 		String[] s1 = s.split("\\.");
+		
+		System.out.println(s1[0]);
 
 		int r = s1[0].lastIndexOf("\\");
 

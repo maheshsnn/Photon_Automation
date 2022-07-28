@@ -24,7 +24,7 @@ public class MooveallZeros_toend {
 		}
 
 		for (int j = 0; j < ax.length; j++) {
-			System.out.println(ax[j]);
+			System.out.print(ax[j]);
 		}
 
 	}

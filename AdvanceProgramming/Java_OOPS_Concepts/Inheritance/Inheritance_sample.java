@@ -1,7 +1,7 @@
 package Inheritance;
 
 public class Inheritance_sample {
-static	int x=10;
+static	int x=20;
 	//extends is used in ineritance
 	//parent class objects and methods are directly available to the child class
 	//we cannot extend more than one class at atime
@@ -10,7 +10,7 @@ static	int x=10;
 	//multilevel inheritance is possible in java
 
 	
-public void mm()
+public void mmm()
 {
 System.out.println(x);
 
@@ -19,7 +19,7 @@ System.out.println(x);
 
 public void mm(int x)
 {
-System.out.println(x);	
+//System.out.println(x);	
 
 double m=10.3;
 

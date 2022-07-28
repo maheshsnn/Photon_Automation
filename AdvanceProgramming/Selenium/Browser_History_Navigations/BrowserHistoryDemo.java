@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class BrowserHistoryDemo {
 	WebDriver d;
@@ -29,6 +30,7 @@ public class BrowserHistoryDemo {
 		Thread.sleep(2000);
 		d.navigate().refresh();
 		Thread.sleep(2000);
+
 	}
 	@Before
 	public void setUp()

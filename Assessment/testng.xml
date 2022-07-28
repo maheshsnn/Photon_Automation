@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" parallel="classes">
+	<test thread-count="5" name="Test23">
+		<parameter name="browser" value="chrome"></parameter>
+
+		<!-- <parameter name="URL" value="https://opensource-demo.orangehrmlive.com/"></parameter>-->
+		<!-- -->
+		<parameter name="URL" value="https://the-internet.herokuapp.com/">
+			<classes>
+				<!-- <class name="Testcases.Task2" />
+				<class name="Testcases.Task3" />-->
+				<class name="Testcases.Task1" />
+			</classes>
+		</parameter>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

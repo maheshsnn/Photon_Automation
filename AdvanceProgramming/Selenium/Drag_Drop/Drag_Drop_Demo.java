@@ -19,6 +19,7 @@ public class Drag_Drop_Demo {
 	@Test
 	public void dragNDrop() throws Exception {
 		d.manage().timeouts().implicitlyWait(3, TimeUnit.MINUTES);
+		d.manage().timeouts().implicitlyWait(500, TimeUnit.SECONDS);
 		d.manage().window().maximize();
 		d.get("http://jqueryui.com/droppable/");
 		assertEquals("Droppable | jQuery UI", d.getTitle());
